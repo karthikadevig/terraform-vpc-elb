@@ -1,0 +1,10 @@
+# Terraform state files (contain sensitive data)
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+ 
+# Variable files that may contain secrets
+*.tfvars
+ 
+# Plan output files
+*.tfplan
